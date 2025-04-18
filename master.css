@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header start */
+header{
+    height: 100vb;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/mexican-food_1091302-45415.avif);
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    height: 15vb;
+    width: 100%;
+    background-attachment: fixed;
+}
+header .header  img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 10px;
+}
+header .header .links{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 75%;
+}
+header .header .links ul{
+    width: 100%;
+    display: flex;
+}
+header .links ul li{
+    display: inline;
+    width: 4em;
+    font-size: clamp(17px , 4vw,32px);
+}
+
+header .links ul li a{
+    text-decoration: none; 
+    transition: 0.1s ease;
+    padding-bottom: 0.4em;
+    color: rgb(4, 4, 135);
+}    
+header .links li a:hover{
+    border-bottom: solid 3px;
+    color: blue;
+}
+/* header start */
+/* home start */
+#home{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+#home h1{
+    text-align: center;
+    color: #393fc8;
+    font-size: 4em;
+}
+#home h1 span{
+    color: yellow;
+    margin-right: 10%;
+}
+#home p{
+    text-align: center;
+}
+#home .menu-link{
+    display: flex;
+    width: 12em;
+    height: 6em;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border: #ffff00 solid 3px;
+    border-radius: 20px;
+    background-color:#ffff00  ;
+}
+#home .menu-link a{
+    display: block;
+    font-size: 2.2em;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    top: 2em;
+    
+}
+/* home start */
+#about .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vb;
+}
+#about .container .about-info{
+    width: 50%;
+}
+#spacial{
+    height: 100vb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+
+}
+#spacial .spacial-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#spacial .spacial-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+#menu .menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#menu .menu-container .menu-intro{
+    height: 20em
+}
+#menu .menu-container .menu-items{
+    display: flex;
+    flex-direction: row;
+}
+#menu .menu-container .menu-items-right{
+    display: flex;
+    flex-direction: column;
+
+}
+#menu .menu-container .menu-items-left{
+    display: flex;
+    flex-direction: column;
+}
